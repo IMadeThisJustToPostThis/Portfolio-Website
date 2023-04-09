@@ -1,0 +1,138 @@
+:root {
+    --grun: #bffcc6;
+    --lgrun: #dbffd6;
+    --blu: #6eb5ff;
+    --lblu: #ace7ff;
+    --aqu: #aff8db;
+    --purp: #b28dff;
+    --volt: #d5aaff;
+    --yell: #e7ffac;
+    --ruge: #ffaba8;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header-title {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 30px;
+}
+
+.header-menu {
+    /*position: fixed;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-picture {
+    color: var(--blu);
+}
+
+.header-caption {
+    position: relative;
+    top: -50px;
+    margin-top: -20px;
+    margin-left: 50%;
+}
+
+.header-img {
+    width: 100%;
+    min-width: 400px;
+}
+
+.about-me {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.body-section {
+    display: flex;
+}
+
+#about-me {
+    margin-right: 42px;
+}
+
+.body-title1 {
+    margin-right: 42px;
+}
+
+#work {
+    margin-right: 62px;
+}
+
+.body-title2 {
+    margin-right: 62px;
+}
+
+#contact-me {
+    margin-right: 0px;
+}
+
+.body-title3 {
+    margin-right: 0px;
+}
+
+.portfolio-body {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-top: 2%;
+}
+
+.portfolio-item {
+    flex: 10 0 0;
+    margin: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--aqu);
+    text-align: center;
+}
+
+
+.portfolio-item-caption {
+    background-color: var(--aqu);
+    position: relative;
+    top: -50px;
+    margin-top: -40px;
+    margin-left: 50%;
+}
+
+.portfolio-item img {
+    width: 100%;
+    min-width: 550px;
+}
+
+.codeBlock {
+    background-image: linear-gradient(rgba(232, 102, 236, 0.3) 0%,
+            rgba(232, 102, 236, 0.6) 100%);
+}
+
+.vertical-line {
+    border-style: groove;
+    border-color: var(--purp);
+    margin: 20px 20px 20px 20px;
+    min-height: 100px;
+}
+
+.contactme-format {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    text-decoration: underline;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contactme-format-li {
+    display: inline;
+    flex: 0 1 auto;
+}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {}

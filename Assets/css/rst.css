@@ -1,0 +1,105 @@
+:root {
+  --blu: #153F6C;
+  --lines: #151616;
+  --dpurp: #231B33;
+  --bgr: #202121;
+  --txt: #C7CBD0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif !important;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--bgr);
+}
+
+a {
+  text-decoration: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+header {
+  color: var(--txt);
+  font-weight: bolder;
+}
+
+p {
+  color: var(--txt);
+  font-weight: bold;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
+}
+
+h1 {
+  background-color: var(--lines);
+  color: var(--txt);
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  color: var(--txt);
+  font-size: 50px;
+}
+
+input,select,option,optgroup,textarea,button,pre,code {
+  font-size: 300%;
+  font-family: inherit;
+}
+
+ul {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+li {
+  display: inline;
+  flex: 1 1 auto;
+  font-weight: bolder;
+  font-size: 30px;
+  color: var(--txt);
+}
+
+nav {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: var(--lines);
+}
+
+nav a {
+  color: var(--txt);
+  margin-left: 100px;
+  margin-right: 100px;
+  display: inline;
+  flex: 0 1 auto;
+}
+
+nav a:hover {
+  background-color: var(--lines);
+}
